@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f5f5;
@@ -38,6 +41,26 @@ width: 50px;
 height:2px;
 }
 
+/* arrow back-home #body */
+
+.back-home a i{
+    padding-top: 8px;
+}
+.back-home a{ 
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background: black;
+    color: #fff;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50%;
+    
+    z-index: 11;
+}
+
 
 /*              start header style                            */
 header{
@@ -65,46 +88,425 @@ header p{
     color: white;
 }
 
-header p::after{
+ header p::after{
     content: "";
     animation: slider 7s linear infinite;
 }
+/* update #body  slider*/
+
+.animator p::after {
+    content: '';
+    animation-name: slider;
+    animation-duration: 11234s;
+    animation-iteration-count: infinite;
+    color: skyblue;
+}
 @keyframes slider {
     0% {
-        content: " Web|"
+        content: '|';
     }
+
+    1% {
+        content: "F|";
+    }
+
+    2% {
+        content: "Fr|";
+    }
+
+    3% {
+        content: "Fro|";
+    }
+
+    4% {
+        content: "Fron|";
+    }
+
+    5% {
+        content: "Front|";
+    }
+
+    6% {
+        content: "Fronte|";
+    }
+
+    7% {
+        content: "Fronten|";
+    }
+
+    8% {
+        content: "Frontend|";
+    }
+
+    9% {
+        content: "Frontend|";
+    }
+
     10% {
-        content: "Web Developer|"
+        content: "Frontend d|";
     }
+
+    11% {
+        content: "Frontend de|";
+    }
+
+    12% {
+        content: "Frontend de|";
+    }
+
+    13% {
+        content: "Frontend dev|";
+    }
+
+    14% {
+        content: "Frontend deve|";
+    }
+
+    15% {
+        content: "Frontend devel|";
+    }
+
+    16% {
+        content: "Frontend develo|";
+    }
+
+    17% {
+        content: "Frontend develop|";
+    }
+
+    18% {
+        content: "Frontend develope|";
+    }
+
+    19% {
+        content: "Frontend developer|";
+    }
+
     20% {
-        content: "Web De|"
+        content: "Frontend developer|";
     }
+
+    21% {
+        content: "Frontend develope|";
+    }
+
+    22% {
+        content: "Frontend develop|";
+    }
+
+    23% {
+        content: "Frontend develo|";
+    }
+
+    24% {
+        content: "Frontend devel|";
+    }
+
+    25% {
+        content: "Frontend deve|";
+    }
+
+    26% {
+        content: "Frontend dev|";
+    }
+
+    27% {
+        content: "Frontend de|";
+    }
+
+    28% {
+        content: "Frontend|";
+    }
+
+    29% {
+        content: "Fronten|";
+    }
+
     30% {
-        content: "Web Designer|"
+        content: "Front|";
     }
-    40% {
+
+    31% {
+        content: "Fro|";
+    }
+
+    32% {
+        content: "F|";
+    }
+
+    33% {
         content: "|";
     }
+
+    34% {
+        content: "C|";
+    }
+
+    35% {
+        content: "CE|";
+    }
+
+    36% {
+        content: "CEO|";
+    }
+
+    37% {
+        content: "CEO D|";
+    }
+
+    38% {
+        content: "CEO De|";
+    }
+
+    39% {
+        content: "CEO Dev|";
+    }
+
+    40% {
+        content: "CEO DevF|";
+    }
+
+    41% {
+        content: "CEO DevF|";
+    }
+
+    42% {
+        content: "CEO DevFo|";
+    }
+
+    43% {
+        content: "CEO DevFol|";
+    }
+
+    44% {
+        content: "CEO DevFoli|";
+    }
+
+    45% {
+        content: "CEO DevFolio|";
+    }
+
+    46% {
+        content: "CEO DevFolio|";
+    }
+
+    47% {
+        content: "CEO DevFol|";
+    }
+
+    48% {
+        content: "CEO DevFol|";
+    }
+
+    49% {
+        content: "CEO DevF|";
+    }
+
     50% {
-        content: "Frontend Developer|"
+        content: "CEO Dev|";
     }
+
+    51% {
+        content: "CEO D|";
+    }
+
+    52% {
+        content: "CEO|";
+    }
+
+    53% {
+        content: "C|";
+    }
+
+    54% {
+        content: "|";
+    }
+
+    55% {
+        content: "W|";
+    }
+
+    56% {
+        content: "We|";
+    }
+
+    57% {
+        content: "Web|";
+    }
+
+    58% {
+        content: "Web d|";
+    }
+
+    59% {
+        content: "Web de|";
+    }
+
     60% {
-        content: "|"
+        content: "Web des|";
     }
+
+    61% {
+        content: "Web desg|";
+    }
+
+    62% {
+        content: "Web desgi|";
+    }
+
+    63% {
+        content: "Web desgin|";
+    }
+
+    64% {
+        content: "Web desgine|";
+    }
+
+    65% {
+        content: "Web desginer|";
+    }
+
+    66% {
+        content: "Web desginer|";
+    }
+
+    67% {
+        content: "Web desgine|";
+    }
+
+    68% {
+        content: "Web desgin|";
+    }
+
+    69% {
+        content: "Web desgi|";
+    }
+
     70% {
-        content: "Graphic Designer|"
+        content: "Web desg|";
     }
+
+    71% {
+        content: "Web des|";
+    }
+
+    72% {
+        content: "Web de|";
+    }
+
+    73% {
+        content: "Web dev|";
+    }
+
+    74% {
+        content: "Web deve|";
+    }
+
+
+    75% {
+        content: "Web devel|";
+    }
+
+    76% {
+        content: "Web develo|";
+    }
+
+    77% {
+        content: "Web develop|";
+    }
+
+    78% {
+        content: "Web develope|";
+    }
+
+    79% {
+        content: "Web developer|";
+    }
+
     80% {
-        content: "|"
+        content: "Web developer|";
     }
+
+    81% {
+        content: "Web develope|";
+    }
+
+    82% {
+        content: "Web develop|";
+    }
+
+    83% {
+        content: "Web develo|";
+    }
+
+    84% {
+        content: "Web devel|";
+    }
+
+    85% {
+        content: "Web deve|";
+    }
+
+    86% {
+        content: "Web dev|";
+    }
+
+    87% {
+        content: "Web de|";
+    }
+
+    88% {
+        content: "Web d|";
+    }
+
+    89% {
+        content: "Web |";
+    }
+
     90% {
-        content: "CEO DevFolio|"
+        content: "Web|";
     }
+
+    91% {
+        content: "We|";
+    }
+
+    92% {
+        content: "W|";
+    }
+
+    93% {
+        content: "|";
+    }
+
+    94% {
+        content: "|";
+    }
+
+    95% {
+        content: "|";
+    }
+
+    96% {
+        content: "|";
+    }
+
+    97% {
+        content: "|";
+    }
+
+    98% {
+        content: "|";
+    }
+
+    99% {
+        content: "|";
+    }
+
     100% {
-        content: "|"
+        content: "|";
     }
 }
-
 
 /*             end header style                            */
 
@@ -226,7 +628,7 @@ padding-right:20px;
 .portfolia i{
     font-size:19px;
     
-    padding:8px 0;
+    padding:8px 6;
 }
 
  .portfolia h4{
@@ -439,3 +841,19 @@ footer span {
     }
     
 }
+
+/* change color nav */
+/* .headerl{
+    background-color: transparent;
+}
+.scrolling-active{
+    background-color: #fff !important;
+    box-shadow: 0 3px 1rem rgb(0, 0, 0,.1) !important;
+} */
+/* .scrolling-active .navbar{
+    height: 6.6rem !important;
+} */
+/* .scrolling-active .navbar a{
+    color: #313131 !important;
+} */
+navbar-collapse
