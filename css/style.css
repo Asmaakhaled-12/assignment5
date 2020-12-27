@@ -65,6 +65,46 @@ header p{
     color: white;
 }
 
+header p::after{
+    content: "";
+    animation: slider 7s linear infinite;
+}
+@keyframes slider {
+    0% {
+        content: " Web|"
+    }
+    10% {
+        content: "Web Developer|"
+    }
+    20% {
+        content: "Web De|"
+    }
+    30% {
+        content: "Web Designer|"
+    }
+    40% {
+        content: "|";
+    }
+    50% {
+        content: "Frontend Developer|"
+    }
+    60% {
+        content: "|"
+    }
+    70% {
+        content: "Graphic Designer|"
+    }
+    80% {
+        content: "|"
+    }
+    90% {
+        content: "CEO DevFolio|"
+    }
+    100% {
+        content: "|"
+    }
+}
+
 
 /*             end header style                            */
 
