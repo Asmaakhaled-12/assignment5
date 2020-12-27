@@ -116,10 +116,18 @@ padding-right:20px;
 .oneservice p{
     color:#4e4e4e;
 }
+/*
 .oneservices:hover i{
-    /* background-color: #0078FF;
-    border: 10px solid #CDE1F8; */
+     background-color: #0078FF;
+    border: 10px solid #CDE1F8; 
     color:white;
+}
+*/
+.oneservice:hover i{
+    color: white !important;
+  background-color: #0078ff !important;
+  border: solid 7px rgb(195, 195, 228) !important;
+
 }
 .services h2{
     font-weight:700;
