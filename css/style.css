@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f5f5;
@@ -22,9 +23,9 @@ p{
 .w-55{
     width:55%;
 }
-.bg{
-    background-color:#040404;
-}
+/* .bg{
+    background-color: black;
+} */
  .collapse a::after
 {
     content: "";
@@ -843,17 +844,20 @@ footer span {
 }
 
 /* change color nav */
-/* .headerl{
+.headerl{
     background-color: transparent;
 }
 .scrolling-active{
-    background-color: #fff !important;
-    box-shadow: 0 3px 1rem rgb(0, 0, 0,.1) !important;
-} */
-/* .scrolling-active .navbar{
-    height: 6.6rem !important;
-} */
-/* .scrolling-active .navbar a{
-    color: #313131 !important;
-} */
-navbar-collapse
+    background-color: #fff;
+    box-shadow: 0 3px 1rem rgb(0, 0, 0,.1);
+}
+.scrolling-active .navbar{
+    height: 4.6rem !important;
+}
+.scrolling-active .navbar a{
+    color: black !important;
+}
+.scrolling-active .navbar .cccc{
+    color: #fff!important;
+    background-color: black!important;
+}
