@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/anas.css">
 
 
 
@@ -14,10 +13,10 @@
 <body>
     <!-- start navbar-->
     <div class="bg fixed-top headerl">
-        <div class="container  ">
-            <nav class="navbar  py-3 navbar-expand-lg navbar-dark bg ">
+        <div class="container">
+            <nav class="navbar  py-3 navbar-expand-lg navbar-dark ">
                 <a class="navbar-brand" href="#">DevFolio</a>
-                <button class=" cccc navbar-toggler" type="button" data-toggle="collapse"
+                <button class=" navDrob navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -60,12 +59,6 @@
         </div>
     </div>
     <!-- end navbar-->
-    <!-- arrow back-home #body-->
-    <div class="back-home headerl">
-        <a href="#home">
-            <i class="fa fa-chevron-up arrow-home "></i>
-        </a>
-    </div>
 
     <!-- start header -->
     <header id="home">
@@ -659,6 +652,11 @@
         </div>
     </section>
     <!--end contact section -->
+    <!-- arrow back-home #body-->
+    <a href="#home" class="back-home">
+        <i class="fa fa-chevron-up arrow-home "></i>
+    </a>
+
 
     <!-- start footer-->
     <footer class="text-center">
@@ -670,19 +668,15 @@
             </figure>
         </div>
 
+
+
     </footer>
-    <!-- change color nav -->
-    <script>
-        window.addEventListener('scroll', function () {
-            let header = document.querySelector('.headerl');
-            let windoposition = window.scrollY > 0;
-            header.classList.toggle('scrolling-active', windoposition);
-        })
-    </script>
+
     <!-- end footer-->
-    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
